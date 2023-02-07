@@ -1,0 +1,29 @@
+nav {
+    height: 50px;
+    background-color: lightgrey;
+  }
+  .inline-block {
+    padding: 15px;
+    display: inline-block;
+   /* background-color:white; */
+  }
+  .left {
+    height: 1000px;
+    float: left;
+    padding-right: 15px;
+    background-color:lightgrey;
+    width:29%;
+
+  }
+  .right {
+    height: 1000px;
+    float: right;
+    /*padding-left: 15px;*/
+    background-color:lightblue;
+    width:70%;
+  }
+
+  img {
+    width: 300px;
+    height: auto;
+  }
