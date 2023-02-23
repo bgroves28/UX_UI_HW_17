@@ -1,29 +1,42 @@
+.inline-block {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.logo {
+  width: auto;
+ 
+}
+
 nav {
-    height: 50px;
-    background-color: lightgrey;
-  }
-  .inline-block {
-    padding: 15px;
-    display: inline-block;
-   /* background-color:white; */
-  }
-  .left {
-    height: 1000px;
-    float: left;
-    padding-right: 15px;
-    background-color:lightgrey;
-    width:29%;
+  width: 100%;
+  padding: 1%;
+  background-color: #1C5D99;
 
-  }
-  .right {
-    height: 1000px;
-    float: right;
-    /*padding-left: 15px;*/
-    background-color:lightblue;
-    width:70%;
-  }
+}
 
-  img {
-    width: 300px;
-    height: auto;
-  }
+ul {
+  width: 50%;
+  margin-left: auto;
+  float: right;
+  padding: 0;
+  display: inline;
+}
+
+
+.heroImg {
+  height: auto;
+  width: 5px;
+  padding: 25px;
+}
+
+.content {
+  width: 500px;
+  margin: 0 auto;
+}
+
+footer {
+  background-color: #373738;
+  padding: 25px;
+}
+
