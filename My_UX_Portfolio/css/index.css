@@ -1,33 +1,42 @@
+header {
+  background-color: #1C5D99;
+  font-size: 25px;
+  color: white;
+  font-family: 'Open Sans';
+}
+
 .inline-block {
   display: inline-block;
   vertical-align: top;
 }
 
-.logo {
-  width: auto;
- 
+div .logo {
+  width: 23%;
+  padding: 1%;
 }
 
 nav {
-  width: 100%;
+  width: 73%;
   padding: 1%;
-  background-color: #1C5D99;
-
 }
 
 ul {
   width: 50%;
   margin-left: auto;
-  float: right;
-  padding: 0;
-  display: inline;
 }
 
-
-.heroImg {
-  height: auto;
-  width: 5px;
+ul li {
   padding: 25px;
+}
+
+.logo {
+  text-align: center;
+}
+
+section .heroImg {
+  height: 600px;
+  padding: 25px;
+  background-color: #BBCDE5;
 }
 
 .content {
@@ -36,7 +45,13 @@ ul {
 }
 
 footer {
-  background-color: #373738;
-  padding: 25px;
+  background-color: #1C5D99;
+  font-size: 25px;
+  color: white;
+  font-family: 'Open Sans';
 }
 
+footer ul {
+  display: inline-block;
+  vertical-align: top;
+}
